@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive navbar using only html css</title>
+	<link rel="stylesheet" type="text/css" href="css/Portfolio.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/brands.min.css">
+	<link rel="stylesheet" type="text/css" href="css/solid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/regular.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+</head>
+<body> 
+
+<!--header -->
+<div class="header">
+	<div>
+	<a href="#">
+		<img src="image/logo.png" alt="...">
+	</a>
+	</div>
+	<div>
+	<ul>
+		<li>
+			<a href="#">
+			<i class="fa-solid fa-phone-flip"></i> (068) 444 434 444
+		    </a>
+	    </li> 
+		<li>
+			<button id="menu" onclick="toggleClick()">
+			<i class="fa-solid fa-bars"></i>
+		    </button>
+	   </li>
+	</ul>
+	</div>
+</div>
+
+<!--navbar -->
+<div class="nav-deg" id="navbar">
+	<button id="cross" onclick="toggleclose()">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">What I Do</a></li>
+			<li><a href="#">Resume</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Client Speak</a></li>
+			<li><a href="#">Contact Me</a></li>
+		</ul>
+	</nav>
+	<div class="icon">
+		<i class="fa-brands fa-facebook-f icon-deg"></i>
+		<i class="fa-brands fa-instagram icon-deg"></i>
+		<i class="fa-brands fa-twitter icon-deg"></i>
+		<i class="fa-brands fa-linkedin-in icon-deg"></i>
+	</div>
+</div>
+
+<!-- welcome page -->
+<div class="welcome">
+	<div>
+		<h1 class="greet">HI, I'M A FREELANCER</h1>
+        <span class="change-content"></span>
+		<h5 class="location">based in New Delhi, INDIA.</h5>
+		<div class="btn">
+			<a href="#">View My Works</a>
+			<a href="#">Contact Me<i class="fa-solid fa-circle-arrow-down icon"></i></a>
+		</div>
+	</div>
+	<div>
+		<img src="image/web-developer.jpg" class="profile" alt="...">
+	</div>
+</div>
+<div class="animated-arrow">
+	<i class="fa-solid fa-arrow-down icon"></i>
+</div>
+
+<div class="info">
+<!-- About us  -->
+<div class="About">
+	<h5>About Me</h5>
+	<h1>Know Me More</h1>
+	<div class="About-detail">
+		<div>
+			<h1>Hi,I'm <span> Callum Smith</span></h1>
+			<p>I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.</p>
+		</div>
+		<div>
+			<div></div>
+			<h1>22</h1>
+			<h4>Years of <span>Experiance<span></h4>
+		</div>
+	</div>
+</div>
+
+ <!-- personal details -->
+<div class="personal">
+	<div>
+	    <h4>Name:</h4>	
+	    <h1>Callum Smith</h1>
+	</div>
+	<div>
+		<h4>Email:</h4>
+		<h1>Chat@callum.com</h1>
+	</div>
+	<div>
+		<h4>Date of birth:</h4>
+		<h1>11 November,1997</h1>
+	</div>
+	<div>
+		<h4>From:</h4>
+		<h1>New Delhi, INDIA.</h1>
+	</div>
+</div>
+</div>
+
+<!-- what I Do -->
+<div class="what-bg">
+<div class="what">
+	<div class="software">
+		<h5>What I Do?</h5>
+	    <h1>How I can help you next project</h1>
+	    <div class="software_card">
+	    	<div>
+	    		<i class="fa-solid fa-display color"></i>
+	    		<h1>Web Design</h1>
+	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+	    	</div>
+	    	<div>
+	    		<i class="fa-solid fa-pen-ruler color"></i>
+	    		<h1>Web Development</h1>
+	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+	    	</div>
+	    	<div>
+	    		<i class="fa-solid fa-palette color"></i>
+	    		<h1>Graphic Design</h1>
+	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+	    	</div>
+	    	<div>
+	    		<i class="fa-solid fa-paintbrush color"></i>
+	    		<h1>Brand Identity</h1>
+	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+	    	</div>
+	    	<div>
+	    		<i class="fa-solid fa-chart-area color"></i>
+	    		<h1>Business Analysis</h1>
+	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+	    	</div>
+	    	<div>
+	    		<i class="fa-solid fa-bullhorn color"></i>
+	    	    <h1>Digital Marketing</h1>
+	    		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>	
+	    	</div>
+	    </div>
+	</div>
+</div>
+</div>
+
+<!-- summary -->
+<div class="summary">
+	<div class="summary-details">
+		<h5>Resume</h5>
+		<h1>A summary of My Resume</h1>
+		<div class="summary-info">
+			<div>
+				<h3>My Education</h3>
+				<div>
+					<div>
+						<h1>Master in Computer Engineering</h1>
+						<h2>Harvard University / 2015 - 2017</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+					</div>
+					<div>
+						<h1>Bachelor in Computer Engineering</h1>
+						<h2>University of California / 2014 - 2015</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+					</div>
+					<div>
+						<h1>Computer Science</h1>
+						<h2>International University / 2013 - 2014</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h3>My Experience</h3>
+				<div>
+					<div>
+						<h1>Sr. Font End Developer</h1>
+						<h2>Apple Inc / 2020 - Current</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+					</div>
+					<div>
+						<h1>Jr. Font End Developer</h1>
+						<h2>Dribbble Inc / 2018 - 2020</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+					</div>
+					<div>
+						<h1>HTML Developer</h1>
+						<h2>Adobe Inc / 2017 - 2018</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- skills  -->
+	<div class="skills-details">
+		<h1>My Skills</h1>
+		<div class="skill-info">
+			<div>
+				<div>
+					<span>Web Design</span>
+					<span>65%</span>
+				</div>
+				<div>
+					<div>
+						<div class="div1"></div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<span>HTML/CSS</span>
+					<span>95%</span>
+				</div>
+				<div>
+					<div>
+						<div class="div2"></div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<span>JavaScript</span>
+					<span>80%</span>
+				</div>
+				<div>
+					<div>
+						<div class="div3"></div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<span>React Js</span>
+					<span>70%</span>
+				</div>
+				<div>
+					<div>
+						<div class="div4"></div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<span>Angular Js</span>
+					<span>60%</span>
+				</div>
+				<div>
+					<div>
+						<div class="div5"></div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<span>Bootstrap</span>
+					<span>99%</span>
+				</div>
+				<div>
+					<div>
+						<div class="div6"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="button">
+			<button type="submit" class="btn-cv">Download CV</button>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio -->
+<div class="what-bg">
+	<div class="portfolio-details">
+		<h5>Portfolio</h5>
+		<h1>Some of my most recent projects</h1>
+		<div class="navbar">
+			<ul>
+				<li>
+					<a href="#" class="active">All</a>
+				</li>
+				<li>
+					<a href="#">Detailed</a>
+				</li>
+				<li>
+					<a href="#">Mockups</a>
+				</li>
+				<li>
+					<a href="#">YouTube Videos</a>
+				</li>
+				<li>
+					<a href="#">Vimeo Videos</a>
+				</li>
+			</ul>
+		</div>
+		<div class="card">
+			<div class="containers">
+				<img src="image/port1.jpg" class="image" alt="...">
+				<div class="middle">
+					<div class="text">
+						<i class="fa-solid fa-file port-icon"></i>
+						<div>
+							Detailed Project 1
+							<h6>Category</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="containers">
+				<img src="image/port2.jpg" class="image" alt="...">
+				<div class="middle">
+					<div class="text">
+						<i class="fa-solid fa-image port-icon"></i>
+						<div>
+							Mockups Project 1
+							<h6>Category</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="containers">
+				<img src="image/port3.jpg" class="image" alt="...">
+				<div class="middle">
+					<div class="text">
+						<i class="fa-solid fa-video port-icon"></i>
+						<div>
+							YouTube Video
+							<h6>Category</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="containers">
+				<img src="image/port4.jpg" class="image" alt="...">
+				<div class="middle">
+					<div class="text">
+						<i class="fa-solid fa-video port-icon"></i>
+						<div>	
+							Vimeo Video
+							<h6>Category</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="containers">
+				<img src="image/port5.jpg" class="image" alt="...">
+				<div class="middle">
+					<div class="text">
+						<i class="fa-solid fa-file port-icon"></i>
+						<div>	
+							Detailed Project 2
+							<h6>Category</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="containers">
+				<img src="image/port6.jpg" class="image" alt="...">
+				<div class="middle">
+					<div class="text">
+							<i class="fa-solid fa-image port-icon"></i>
+						<div>	
+							Mockups Design 2
+							<h6>Category</h6>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+</div>
+
+<!-- interested  -->
+<div class="image-bg">
+<div class="interested-bg">
+<h1 class="interest">Interested in working with me?</h1>
+<div>
+<button class="btn-hired">Hire Me!</button>
+</div>
+</div>
+</div>
+
+<!-- FAQ -->
+	<div class="FAQ">
+		<div class="FAQ-1">
+			<div>
+				<h6>FAQ</h6>
+				<h1>Have any questions?</h1>
+			</div>
+			<div>
+				<nav id="down">
+				<button class="btn-down" onclick="toggledown()">
+					<i class="fa-solid fa-chevron-down"></i>
+				</button>	
+				<h4>What is Callum?</h4>
+			    </nav>
+				<section id="up">
+					<nav>
+				      <button class="btn-up" onclick="toggleup()">
+					     <i class="fa-solid fa-chevron-up"></i>
+				      </button>	
+				      <h3>What is Callum?</h3>
+     			    </nav>
+					<p>
+						Lisque persius interesset his et, in quot quidam persequeris vim, ad mea<br><br>
+						essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an,<br><br>
+						eu nec magna imperdiet.
+					</p>
+				</section>
+				<nav id="down1">
+				<button class="btn-down" onclick="toggledown1()">
+					<i class="fa-solid fa-chevron-down"></i>
+				</button>	
+				<h4>How Can I Help You?</h4>
+			    </nav>
+				<section id="up1" >
+					<nav>
+				      <button class="btn-up" onclick="toggleup1()">
+					     <i class="fa-solid fa-chevron-up"></i>
+				      </button>	
+				      <h3>How Can I Help You?</h3>
+     			    </nav>
+					<p>
+						Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life<br><br> accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum<br><br> eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid<br><br> single-origin coffee nulla assumenda shoreditch et.<br><br><br>
+
+                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt<br><br>sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+					</p>
+				</section>
+				<nav id="down2" onclick="toggledown2()">
+				<button class="btn-down">
+					<i class="fa-solid fa-chevron-down"></i>
+				</button>	
+				<h4>Simple process of workflow?</h4>
+			    </nav>
+				<section id="up2">
+					<nav>
+				      <button class="btn-up" onclick="toggleup2()">
+					     <i class="fa-solid fa-chevron-up"></i>
+				      </button>	
+				      <h3>Simple process of workflow?</h3>
+     			    </nav>
+					<p>
+						Lisque persius interesset his et, in quot quidam persequeris vim, ad mea<br><br>
+						essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an,<br><br>
+						eu nec magna imperdiet.
+					</p>
+				</section>
+				<nav id="down3">
+				<button class="btn-down" onclick="toggledown3()">
+					<i class="fa-solid fa-chevron-down"></i>
+				</button>	
+				<h4>Is Callum a Multi-purpose template?</h4>
+			    </nav>
+				<section id="up3">
+					<nav>
+				       <button class="btn-up" onclick="toggleup3()">
+					      <i class="fa-solid fa-chevron-up"></i>
+				       </button>	
+				       <h3>Is Callum a Multi-purpose template?</h3>
+			        </nav>
+					<p>
+						Lisque persius interesset his et, in quot quidam persequeris vim, ad mea<br><br>
+						essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an,<br><br>
+						eu nec magna imperdiet.
+					</p>
+				</section>
+				<nav id="down4">
+				<button class="btn-down" onclick="toggledown4()">
+					<i class="fa-solid fa-chevron-down"></i>
+				</button>	
+				<h4>why responsive one page template?</h4>
+			    </nav>
+				<section id="up4">
+					<nav>
+				    <button class="btn-up" onclick="toggleup4()">
+					   <i class="fa-solid fa-chevron-up"></i>
+				    </button>	
+				    <h3>why responsive one page template?</h3>
+			        </nav>
+					<p>
+						Lisque persius interesset his et, in quot quidam persequeris vim, ad mea<br><br>
+						essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an,<br><br>
+						eu nec magna imperdiet.
+					</p>
+				</section>
+			</div>
+		</div>
+		<div class="FAQ-2">
+			<img src="image/faq.png" alt="...">
+		</div>
+	</div>
+
+	<!-- slider -->
+	<div class="Client-bg">
+	   <div class="Client">
+		  <h5>Client Speak</h5>
+		  <h1>What Some of my Clients Say</h1>
+
+		  <div class="slideshow-container">
+		  	<div class="mySlides fade" style="width: 100%">
+		  		<p>
+		  			“Easy to use, reasonably priced simply dummy text of the printing and typesetting industry.<br> Quidam lisque persius interesset his et, in quot quidam possim iriure.<br> simply dummy text of the printing and typesetting industry.”
+		  		</p>
+		  		<div class="image">
+		  		<img src="https://harnishdesign.net/demo/html/callum/images/testimonial/client-sm-1.jpg">
+		  		</div>
+		  		<div class="text1">Jay Shah</div>
+		  		<div class="text">Founder at icomatic Pvt Ltd</div>
+		  	</div>
+		  	<div class="mySlides fade" style="width: 100%">
+		  		<p>
+		  			“I am happy Working with printing and typesetting industry. Quidam lisque persius interesset<br> his et, in quot quidam persequeris essent possim iriure. simply dummy text<br> of the printing and typesetting industry.”
+		  		</p>
+		  		<div class="image">
+		  		<img src="https://harnishdesign.net/demo/html/callum/images/testimonial/client-sm-2.jpg">
+		  	    </div>
+		  		<div class="text1">Patrick cary</div>
+		  		<div class="text">Freelancer From USA</div>
+		  	</div>
+		  	<div class="mySlides fade" style="width: 100%">
+		  		<p>
+		  			“Only trying it out since a few days. But up to now excellent. Seems to work flawlessly.<br> priced simply dummy text of the printing and typesetting industry.”
+		  		</p>
+		  		<div class="image">
+		  		<img src="https://harnishdesign.net/demo/html/callum/images/testimonial/client-sm-3.jpg">
+		  	    </div>
+		  		<div class="text1">Dennis Jacques</div>
+		  		<div class="text">Noon Inc</div>
+		  	</div>
+            <div class="mySlides fade" style="width: 100%">
+		  		<p>
+		  			“I have used them twice now. Good rates, very efficient service and priced simply dummy text<br> of the printing and typesetting industry quidam interesset his et. simply dummy<br> text of the printing and typesetting industry. Excellent.”
+		  		</p>
+		  		<div class="image">
+		  		<img src="https://harnishdesign.net/demo/html/callum/images/testimonial/client-sm-4.jpg">
+		  	    </div>
+		  		<div class="text1">Chris Tom</div>
+		  		<div class="text">Campany CEO from UK</div>
+		  	</div>
+		  	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  </div>
+
+		  <div style="text-align: center">
+		  	<span class="dot" onclick="CurrentSlide(1)"></span>
+		  	<span class="dot" onclick="CurrentSlide(2)"></span>
+		  	<span class="dot" onclick="CurrentSlide(3)"></span>
+		  	<span class="dot" onclick="CurrentSlide(4)"></span>
+		  </div>
+       </div>
+	</div>
+
+    <!-- touch -->
+	<div class="touch">
+		<div class="left">
+			<div>
+				<h1>Let's get in touch</h1>
+				<p>
+					I enjoy discussing new projects and design<br> challenges. Please share as much info, as<br>
+					possible so we can get the most out of our first<br>
+					catch-up. 
+				</p>
+			</div>
+			<div>
+				<h3>Living In:</h3>
+				<p>
+					Pocket No:-5, New Delhi,INDIA.
+				</p>
+			</div>
+			<div>
+				<h3>Call:</h3>
+				<p>
+					(+060) 444 434 444
+				</p>
+			</div>
+			<div>
+				<i class="fa-brands fa-twitter touch-icon"></i>
+				<i class="fa-brands fa-facebook-f touch-icon"></i>
+                <i class="fa-brands fa-instagram touch-icon"></i>
+                <i class="fa-brands fa-github touch-icon"></i>
+                <i class="fa-brands fa-dribbble touch-icon"></i>
+			</div>
+		</div>
+        <div class="right">
+        	<h1>Estimate your Project?</h1>
+        	<section>
+        		<label>What is Your Name:</label>
+        		<input type="textbox">
+        		<label>Your Email Address:</label>
+        		<input type="Email">
+        		<label>How can I Help you?</label>
+        		<textarea rows="15"></textarea>
+        		<div>
+        		<button type="submit">send <i class="fa-solid fa-arrow-right touch-icon"></i></button>
+        		</div>
+        	</section>
+        </div> 
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div>
+			<h1>Copyright © 2021 <span>Callum.</span> All Rights Reserved.</h1>
+		</div>
+		<div>
+			<h1>Designed by <span>Deepika Madhuriya</span></h1>
+		</div>
+	</div>
+
+
+
+<!-- js link -->
+<script type="text/javascript" src="js/all.min.js"></script>
+<script type="text/javascript" src="js/brands.min.js"></script>
+<script type="text/javascript" src="js/fontawesome.min.js"></script>
+<script type="text/javascript" src="js/regular.min.js"></script>
+<script type="text/javascript" src="js/solid.min.js"></script>
+<script type="text/javascript" src="js/Portfolio.js"></script>
+</body>
+</html>
